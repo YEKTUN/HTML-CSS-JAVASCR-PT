@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+   background-color: rgba(75, 221, 221, 0.645);
+   font-family:cursive;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+
+}
+h1{
+    color: rgba(70, 11, 159, 0.637);
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+#container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+    
+    position:absolute;
+    padding: 100px;
+   
+    background-color:  rgba(101, 122, 145, 0.567);
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    
+
+}
+#göster{
+    font-family: monospace;
+    font-size: 4em;
+    margin-bottom: 20px;
+    color: hsla(0, 75%, 32%, 0.829)
+}
+
+#buton button{
+    font-size:1.3em ;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 20px rgb(231, 152, 56);
+    padding: 5px 10px;
+    margin: 5px;
+
+
+    
+}
+#baslat{
+    background-color: hsla(123, 75%, 69%, 0.912);
+
+    
+}
+#baslat:hover{
+    box-shadow: 0 0 40px rgb(56, 167, 231);
+
+}
+#baslat:active{
+    background-color: hsla(123, 75%, 60%, 0.912);
+
+
+
+}
+
+#durdur{
+    background-color: hsla(359, 74%, 57%, 0.584);
+}
+#durdur:hover{
+    box-shadow: 0 0 40px rgb(56, 167, 231);
+}
+
+#durdur:active{
+    background-color: hsla(359, 74%, 47%, 0.584);
+}
+#reset{
+    background-color: hsla(60, 91%, 46%, 0.788);    
+}
+#reset:hover{
+    box-shadow: 0 0 40px rgb(56, 167, 231);
+}
+#reset:active{
+    background-color: hsla(60, 91%, 37%, 0.788);
+}   
