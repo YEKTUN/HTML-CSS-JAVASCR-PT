@@ -1,0 +1,69 @@
+body{
+    background: linear-gradient(90deg, hsla(0, 100%, 50%, 0.784) 0%,hsla(39, 100%, 50%, 0.866) 15%,hsla(60, 100%, 50%, 0.81) 30%,rgba(0, 128, 0, 0.821) 45%,hsla(240, 100%, 50%, 0.803) 60%,hsla(275, 100%, 25%, 0.803) 75%,rgba(238, 130, 238, 0.862) 100%); 
+    font-family:'Courier New', Courier, monospace  ;
+
+   
+}
+#container{
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    background-color: rgba(250, 235, 215, 0.229);
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 3px rgba(25, 51, 220, 0.327) ,  -2px -2px 3px rgba(25, 51, 220, 0.453);
+    padding-bottom: 7em;
+    
+
+}
+#container h1{
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: -10px;
+}
+#input{
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: hsl(0, 0%, 95%);
+}
+#input:active{
+    background-color: hsl(0, 0%, 100%);
+    
+}
+#label{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#roll{
+    font-weight: bolder;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 15px;
+    background-color: hsla(160, 100%, 80%, 0.411);
+
+}
+#roll:hover{
+    background-color: hsla(160, 100%, 60%, 0.411);
+
+
+}
+#roll:active{
+    background-color: hsla(160, 100%, 40%, 0.411);
+}
+#container2{
+    text-align: center;
+}
+#result{
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin: 10px;
+}
+#images img{
+    width: 200px;
+    height: 200px;
+
+}

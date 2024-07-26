@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#count{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 9em;
+    font-family: Arial;
+    font-weight:200;
+    color:  hsl(0, 84%, 40%); 
+    text-shadow: 3px 2px 3px rgb(6, 2, 2);
+}
+#buttoncontainer{
+   
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    
+    
+    
+    
+    
+
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+    font-size: 1.5em;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: hsl(171, 86%, 40%);
+    color: rgb(225, 219, 211);
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    text-shadow: 2px 2px 3px rgb(6, 2, 2);
+
+
+}
+.button:hover{
+    background-color: hsl(171, 86%, 50%);
+    color: blueviolet;
+}
